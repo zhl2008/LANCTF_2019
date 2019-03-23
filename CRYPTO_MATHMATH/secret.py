@@ -1,0 +1,1 @@
+FLAG = "LANCTF{Mat4_I2_An_Amaz7i1g_W5Rl0}"

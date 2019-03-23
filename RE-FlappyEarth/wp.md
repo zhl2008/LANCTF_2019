@@ -1,0 +1,3 @@
+##### FlappyEarth
+
+js题 flag计算逻辑在game.js代码中，cacu_flag为生成flag的函数，其中将craso_x/1000000的md5值与固定数据相异或得到flag，每调用一次calcScore函数craso_x就会加一，可以理解为craso_x与存活时长相关，可以通过console.log打印出到第一根柱子的craso_x值和柱子间craso_x的增长预测到达100W时craso_x的值。而且最后craso_x值/1000000，约为107，也可以打个爆破求解。

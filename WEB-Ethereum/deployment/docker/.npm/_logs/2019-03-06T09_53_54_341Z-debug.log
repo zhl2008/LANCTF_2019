@@ -1,0 +1,1260 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/node-v10.15.3-linux-x64/bin/node',
+1 verbose cli   '/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'web3' ]
+2 info using npm@6.4.1
+3 info using node@v10.15.3
+4 verbose npm-session e259ff840fc7e296
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npm.taobao.org/web3 1155ms
+8 silly pacote tag manifest for web3@latest fetched in 1193ms
+9 timing stage:loadCurrentTree Completed in 1387ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 2ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule web3@1.0.0-beta.48 checking installable status
+17 http fetch GET 200 https://registry.npm.taobao.org/@babel%2fruntime 185ms
+18 silly pacote range manifest for @babel/runtime@^7.3.1 fetched in 199ms
+19 silly resolveWithNewModule @babel/runtime@7.3.4 checking installable status
+20 http fetch GET 200 https://registry.npm.taobao.org/web3-shh 132ms
+21 silly pacote version manifest for web3-shh@1.0.0-beta.48 fetched in 150ms
+22 silly resolveWithNewModule web3-shh@1.0.0-beta.48 checking installable status
+23 http fetch GET 200 https://registry.npm.taobao.org/web3-providers 396ms
+24 http fetch GET 200 https://registry.npm.taobao.org/web3-bzz 430ms
+25 http fetch GET 200 https://registry.npm.taobao.org/web3-core 433ms
+26 http fetch GET 200 https://registry.npm.taobao.org/web3-net 420ms
+27 http fetch GET 200 https://registry.npm.taobao.org/web3-eth 431ms
+28 silly pacote version manifest for web3-providers@1.0.0-beta.48 fetched in 464ms
+29 silly resolveWithNewModule web3-providers@1.0.0-beta.48 checking installable status
+30 silly pacote version manifest for web3-net@1.0.0-beta.48 fetched in 486ms
+31 silly resolveWithNewModule web3-net@1.0.0-beta.48 checking installable status
+32 silly pacote version manifest for web3-core@1.0.0-beta.48 fetched in 503ms
+33 silly resolveWithNewModule web3-core@1.0.0-beta.48 checking installable status
+34 silly pacote version manifest for web3-eth@1.0.0-beta.48 fetched in 489ms
+35 silly resolveWithNewModule web3-eth@1.0.0-beta.48 checking installable status
+36 silly pacote version manifest for web3-bzz@1.0.0-beta.48 fetched in 508ms
+37 silly resolveWithNewModule web3-bzz@1.0.0-beta.48 checking installable status
+38 http fetch GET 200 https://registry.npm.taobao.org/web3-utils 171ms
+39 silly pacote version manifest for web3-utils@1.0.0-beta.48 fetched in 182ms
+40 silly resolveWithNewModule web3-utils@1.0.0-beta.48 checking installable status
+41 http fetch GET 200 https://registry.npm.taobao.org/@types%2fnode 563ms
+42 silly pacote range manifest for @types/node@^10.12.18 fetched in 588ms
+43 silly resolveWithNewModule @types/node@10.12.29 checking installable status
+44 http fetch GET 200 https://registry.npm.taobao.org/web3-core-method 612ms
+45 silly pacote version manifest for web3-core-method@1.0.0-beta.48 fetched in 620ms
+46 silly resolveWithNewModule web3-core-method@1.0.0-beta.48 checking installable status
+47 http fetch GET 200 https://registry.npm.taobao.org/web3-core-helpers 1846ms
+48 silly pacote version manifest for web3-core-helpers@1.0.0-beta.48 fetched in 1859ms
+49 silly resolveWithNewModule web3-core-helpers@1.0.0-beta.48 checking installable status
+50 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-personal 12452ms
+51 silly pacote version manifest for web3-eth-personal@1.0.0-beta.48 fetched in 12467ms
+52 silly resolveWithNewModule web3-eth-personal@1.0.0-beta.48 checking installable status
+53 http fetch GET 200 https://registry.npm.taobao.org/regenerator-runtime 133ms
+54 silly pacote range manifest for regenerator-runtime@^0.12.0 fetched in 147ms
+55 silly resolveWithNewModule regenerator-runtime@0.12.1 checking installable status
+56 http fetch GET 200 https://registry.npm.taobao.org/lodash 131ms
+57 silly pacote range manifest for lodash@^4.17.11 fetched in 145ms
+58 silly resolveWithNewModule lodash@4.17.11 checking installable status
+59 http fetch GET 200 https://registry.npm.taobao.org/swarm-js 209ms
+60 silly pacote range manifest for swarm-js@^0.1.39 fetched in 229ms
+61 silly resolveWithNewModule swarm-js@0.1.39 checking installable status
+62 http fetch GET 200 https://registry.npm.taobao.org/mkdirp-promise 266ms
+63 http fetch GET 200 https://registry.npm.taobao.org/setimmediate 266ms
+64 http fetch GET 200 https://registry.npm.taobao.org/buffer 275ms
+65 http fetch GET 200 https://registry.npm.taobao.org/eth-lib 274ms
+66 silly pacote range manifest for setimmediate@^1.0.5 fetched in 321ms
+67 silly resolveWithNewModule setimmediate@1.0.5 checking installable status
+68 silly pacote range manifest for eth-lib@^0.1.26 fetched in 333ms
+69 silly resolveWithNewModule eth-lib@0.1.27 checking installable status
+70 silly pacote range manifest for mkdirp-promise@^5.0.1 fetched in 339ms
+71 silly resolveWithNewModule mkdirp-promise@5.0.1 checking installable status
+72 silly pacote range manifest for buffer@^5.0.5 fetched in 348ms
+73 silly resolveWithNewModule buffer@5.2.1 checking installable status
+74 http fetch GET 200 https://registry.npm.taobao.org/bluebird 366ms
+75 silly pacote range manifest for bluebird@^3.5.0 fetched in 394ms
+76 silly resolveWithNewModule bluebird@3.5.3 checking installable status
+77 http fetch GET 200 https://registry.npm.taobao.org/fs-extra 420ms
+78 silly pacote range manifest for fs-extra@^4.0.2 fetched in 464ms
+79 silly resolveWithNewModule fs-extra@4.0.3 checking installable status
+80 http fetch GET 200 https://registry.npm.taobao.org/tar 156ms
+81 http fetch GET 200 https://registry.npm.taobao.org/xhr-request-promise 154ms
+82 silly pacote range manifest for xhr-request-promise@^0.1.2 fetched in 190ms
+83 silly resolveWithNewModule xhr-request-promise@0.1.2 checking installable status
+84 silly pacote range manifest for tar@^4.0.2 fetched in 201ms
+85 silly resolveWithNewModule tar@4.4.8 checking installable status
+86 http fetch GET 200 https://registry.npm.taobao.org/decompress 551ms
+87 silly pacote range manifest for decompress@^4.0.0 fetched in 563ms
+88 silly resolveWithNewModule decompress@4.2.0 checking installable status
+89 http fetch GET 200 https://registry.npm.taobao.org/mock-fs 656ms
+90 http fetch GET 200 https://registry.npm.taobao.org/mime-types 702ms
+91 silly pacote range manifest for mock-fs@^4.1.0 fetched in 702ms
+92 silly resolveWithNewModule mock-fs@4.8.0 checking installable status
+93 silly pacote range manifest for mime-types@^2.1.16 fetched in 720ms
+94 silly resolveWithNewModule mime-types@2.1.22 checking installable status
+95 http fetch GET 200 https://registry.npm.taobao.org/got 930ms
+96 silly pacote range manifest for got@^7.1.0 fetched in 946ms
+97 silly resolveWithNewModule got@7.1.0 checking installable status
+98 http fetch GET 200 https://registry.npm.taobao.org/ieee754 142ms
+99 silly pacote range manifest for ieee754@^1.1.4 fetched in 160ms
+100 silly resolveWithNewModule ieee754@1.1.12 checking installable status
+101 http fetch GET 200 https://registry.npm.taobao.org/base64-js 162ms
+102 silly pacote range manifest for base64-js@^1.0.2 fetched in 175ms
+103 silly resolveWithNewModule base64-js@1.3.0 checking installable status
+104 http fetch GET 200 https://registry.npm.taobao.org/decompress-tar 174ms
+105 http fetch GET 200 https://registry.npm.taobao.org/decompress-tarbz2 195ms
+106 http fetch GET 200 https://registry.npm.taobao.org/pify 192ms
+107 http fetch GET 200 https://registry.npm.taobao.org/make-dir 194ms
+108 http fetch GET 200 https://registry.npm.taobao.org/decompress-unzip 200ms
+109 http fetch GET 200 https://registry.npm.taobao.org/decompress-targz 208ms
+110 silly pacote range manifest for decompress-tar@^4.0.0 fetched in 233ms
+111 silly resolveWithNewModule decompress-tar@4.1.1 checking installable status
+112 silly pacote range manifest for decompress-tarbz2@^4.0.0 fetched in 243ms
+113 silly resolveWithNewModule decompress-tarbz2@4.1.1 checking installable status
+114 silly pacote range manifest for decompress-unzip@^4.0.1 fetched in 249ms
+115 silly resolveWithNewModule decompress-unzip@4.0.1 checking installable status
+116 silly pacote range manifest for pify@^2.3.0 fetched in 247ms
+117 silly resolveWithNewModule pify@2.3.0 checking installable status
+118 silly pacote range manifest for make-dir@^1.0.0 fetched in 249ms
+119 silly resolveWithNewModule make-dir@1.3.0 checking installable status
+120 silly pacote range manifest for decompress-targz@^4.0.0 fetched in 255ms
+121 silly resolveWithNewModule decompress-targz@4.1.1 checking installable status
+122 http fetch GET 200 https://registry.npm.taobao.org/graceful-fs 255ms
+123 silly pacote range manifest for graceful-fs@^4.1.10 fetched in 274ms
+124 silly resolveWithNewModule graceful-fs@4.1.15 checking installable status
+125 http fetch GET 200 https://registry.npm.taobao.org/strip-dirs 291ms
+126 silly pacote range manifest for strip-dirs@^2.0.0 fetched in 305ms
+127 silly resolveWithNewModule strip-dirs@2.1.0 checking installable status
+128 http fetch GET 200 https://registry.npm.taobao.org/is-stream 185ms
+129 http fetch GET 200 https://registry.npm.taobao.org/file-type 189ms
+130 http fetch GET 200 https://registry.npm.taobao.org/tar-stream 206ms
+131 silly pacote range manifest for file-type@^5.2.0 fetched in 223ms
+132 silly resolveWithNewModule file-type@5.2.0 checking installable status
+133 silly pacote range manifest for is-stream@^1.1.0 fetched in 224ms
+134 silly resolveWithNewModule is-stream@1.1.0 checking installable status
+135 silly pacote range manifest for tar-stream@^1.5.2 fetched in 226ms
+136 silly resolveWithNewModule tar-stream@1.6.2 checking installable status
+137 http fetch GET 200 https://registry.npm.taobao.org/to-buffer 241ms
+138 http fetch GET 200 https://registry.npm.taobao.org/fs-constants 244ms
+139 http fetch GET 200 https://registry.npm.taobao.org/end-of-stream 246ms
+140 http fetch GET 200 https://registry.npm.taobao.org/buffer-alloc 250ms
+141 http fetch GET 200 https://registry.npm.taobao.org/bl 259ms
+142 silly pacote range manifest for end-of-stream@^1.0.0 fetched in 288ms
+143 silly resolveWithNewModule end-of-stream@1.4.1 checking installable status
+144 silly pacote range manifest for buffer-alloc@^1.2.0 fetched in 289ms
+145 silly resolveWithNewModule buffer-alloc@1.2.0 checking installable status
+146 silly pacote range manifest for fs-constants@^1.0.0 fetched in 289ms
+147 silly resolveWithNewModule fs-constants@1.0.0 checking installable status
+148 silly pacote range manifest for to-buffer@^1.1.1 fetched in 288ms
+149 silly resolveWithNewModule to-buffer@1.1.1 checking installable status
+150 silly pacote range manifest for bl@^1.0.0 fetched in 298ms
+151 silly resolveWithNewModule bl@1.2.2 checking installable status
+152 http fetch GET 200 https://registry.npm.taobao.org/xtend 297ms
+153 http fetch GET 200 https://registry.npm.taobao.org/readable-stream 299ms
+154 silly pacote range manifest for readable-stream@^2.3.0 fetched in 321ms
+155 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+156 silly pacote range manifest for xtend@^4.0.0 fetched in 320ms
+157 silly resolveWithNewModule xtend@4.0.1 checking installable status
+158 http fetch GET 200 https://registry.npm.taobao.org/safe-buffer 124ms
+159 silly pacote range manifest for safe-buffer@^5.1.1 fetched in 142ms
+160 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+161 http fetch GET 200 https://registry.npm.taobao.org/isarray 148ms
+162 http fetch GET 200 https://registry.npm.taobao.org/inherits 187ms
+163 http fetch GET 200 https://registry.npm.taobao.org/core-util-is 194ms
+164 http fetch GET 200 https://registry.npm.taobao.org/process-nextick-args 193ms
+165 http fetch GET 200 https://registry.npm.taobao.org/string_decoder 195ms
+166 http fetch GET 200 https://registry.npm.taobao.org/util-deprecate 199ms
+167 silly pacote range manifest for isarray@~1.0.0 fetched in 208ms
+168 silly resolveWithNewModule isarray@1.0.0 checking installable status
+169 silly pacote range manifest for inherits@~2.0.3 fetched in 236ms
+170 silly resolveWithNewModule inherits@2.0.3 checking installable status
+171 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 236ms
+172 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+173 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 236ms
+174 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+175 silly pacote range manifest for string_decoder@~1.1.1 fetched in 237ms
+176 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+177 silly pacote range manifest for core-util-is@~1.0.0 fetched in 240ms
+178 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+179 http fetch GET 200 https://registry.npm.taobao.org/buffer-alloc-unsafe 142ms
+180 http fetch GET 200 https://registry.npm.taobao.org/buffer-fill 151ms
+181 silly pacote range manifest for buffer-alloc-unsafe@^1.1.0 fetched in 163ms
+182 silly resolveWithNewModule buffer-alloc-unsafe@1.1.0 checking installable status
+183 silly pacote range manifest for buffer-fill@^1.0.0 fetched in 172ms
+184 silly resolveWithNewModule buffer-fill@1.0.0 checking installable status
+185 http fetch GET 200 https://registry.npm.taobao.org/once 130ms
+186 silly pacote range manifest for once@^1.4.0 fetched in 153ms
+187 silly resolveWithNewModule once@1.4.0 checking installable status
+188 http fetch GET 200 https://registry.npm.taobao.org/wrappy 130ms
+189 silly pacote range manifest for wrappy@1 fetched in 155ms
+190 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+191 silly pacote range manifest for file-type@^6.1.0 fetched in 18ms
+192 silly resolveWithNewModule file-type@6.2.0 checking installable status
+193 http fetch GET 200 https://registry.npm.taobao.org/seek-bzip 214ms
+194 http fetch GET 200 https://registry.npm.taobao.org/unbzip2-stream 218ms
+195 silly pacote range manifest for seek-bzip@^1.0.5 fetched in 241ms
+196 silly resolveWithNewModule seek-bzip@1.0.5 checking installable status
+197 silly pacote range manifest for unbzip2-stream@^1.0.9 fetched in 245ms
+198 silly resolveWithNewModule unbzip2-stream@1.3.3 checking installable status
+199 http fetch GET 200 https://registry.npm.taobao.org/commander 414ms
+200 silly pacote range manifest for commander@~2.8.1 fetched in 431ms
+201 silly resolveWithNewModule commander@2.8.1 checking installable status
+202 http fetch GET 200 https://registry.npm.taobao.org/graceful-readlink 163ms
+203 silly pacote range manifest for graceful-readlink@>= 1.0.0 fetched in 180ms
+204 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+205 http fetch GET 200 https://registry.npm.taobao.org/through 137ms
+206 silly pacote range manifest for through@^2.3.8 fetched in 178ms
+207 silly resolveWithNewModule through@2.3.8 checking installable status
+208 silly pacote range manifest for file-type@^3.8.0 fetched in 19ms
+209 silly resolveWithNewModule file-type@3.9.0 checking installable status
+210 http fetch GET 200 https://registry.npm.taobao.org/get-stream 153ms
+211 http fetch GET 200 https://registry.npm.taobao.org/yauzl 154ms
+212 silly pacote range manifest for get-stream@^2.2.0 fetched in 181ms
+213 silly resolveWithNewModule get-stream@2.3.1 checking installable status
+214 silly pacote range manifest for yauzl@^2.4.2 fetched in 184ms
+215 silly resolveWithNewModule yauzl@2.10.0 checking installable status
+216 http fetch GET 200 https://registry.npm.taobao.org/object-assign 157ms
+217 http fetch GET 200 https://registry.npm.taobao.org/pinkie-promise 168ms
+218 silly pacote range manifest for object-assign@^4.0.1 fetched in 170ms
+219 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+220 silly pacote range manifest for pinkie-promise@^2.0.0 fetched in 180ms
+221 silly resolveWithNewModule pinkie-promise@2.0.1 checking installable status
+222 http fetch GET 200 https://registry.npm.taobao.org/pinkie 123ms
+223 silly pacote range manifest for pinkie@^2.0.0 fetched in 136ms
+224 silly resolveWithNewModule pinkie@2.0.4 checking installable status
+225 http fetch GET 200 https://registry.npm.taobao.org/buffer-crc32 143ms
+226 http fetch GET 200 https://registry.npm.taobao.org/fd-slicer 147ms
+227 silly pacote range manifest for buffer-crc32@~0.2.3 fetched in 159ms
+228 silly resolveWithNewModule buffer-crc32@0.2.13 checking installable status
+229 silly pacote range manifest for fd-slicer@~1.1.0 fetched in 164ms
+230 silly resolveWithNewModule fd-slicer@1.1.0 checking installable status
+231 http fetch GET 200 https://registry.npm.taobao.org/pend 132ms
+232 silly pacote range manifest for pend@~1.2.0 fetched in 144ms
+233 silly resolveWithNewModule pend@1.2.0 checking installable status
+234 silly pacote range manifest for pify@^3.0.0 fetched in 22ms
+235 silly resolveWithNewModule pify@3.0.0 checking installable status
+236 http fetch GET 200 https://registry.npm.taobao.org/is-natural-number 177ms
+237 silly pacote range manifest for is-natural-number@^4.0.1 fetched in 195ms
+238 silly resolveWithNewModule is-natural-number@4.0.1 checking installable status
+239 http fetch GET 200 https://registry.npm.taobao.org/keccakjs 196ms
+240 http fetch GET 200 https://registry.npm.taobao.org/bn.js 200ms
+241 http fetch GET 200 https://registry.npm.taobao.org/nano-json-stream-parser 204ms
+242 http fetch GET 200 https://registry.npm.taobao.org/servify 214ms
+243 silly pacote range manifest for keccakjs@^0.2.1 fetched in 246ms
+244 silly resolveWithNewModule keccakjs@0.2.3 checking installable status
+245 silly pacote range manifest for bn.js@^4.11.6 fetched in 250ms
+246 silly resolveWithNewModule bn.js@4.11.8 checking installable status
+247 silly pacote range manifest for nano-json-stream-parser@^0.1.2 fetched in 263ms
+248 silly resolveWithNewModule nano-json-stream-parser@0.1.2 checking installable status
+249 http fetch GET 200 https://registry.npm.taobao.org/elliptic 267ms
+250 silly pacote range manifest for servify@^0.1.12 fetched in 270ms
+251 silly resolveWithNewModule servify@0.1.12 checking installable status
+252 silly pacote range manifest for elliptic@^6.4.0 fetched in 289ms
+253 silly resolveWithNewModule elliptic@6.4.1 checking installable status
+254 http fetch GET 200 https://registry.npm.taobao.org/ws 293ms
+255 silly pacote range manifest for ws@^3.0.0 fetched in 316ms
+256 silly resolveWithNewModule ws@3.3.3 checking installable status
+257 http fetch GET 200 https://registry.npm.taobao.org/hmac-drbg 276ms
+258 http fetch GET 200 https://registry.npm.taobao.org/brorand 279ms
+259 http fetch GET 200 https://registry.npm.taobao.org/minimalistic-crypto-utils 280ms
+260 http fetch GET 200 https://registry.npm.taobao.org/hash.js 290ms
+261 http fetch GET 200 https://registry.npm.taobao.org/minimalistic-assert 292ms
+262 silly pacote range manifest for brorand@^1.0.1 fetched in 343ms
+263 silly resolveWithNewModule brorand@1.1.0 checking installable status
+264 silly pacote range manifest for minimalistic-crypto-utils@^1.0.0 fetched in 340ms
+265 silly resolveWithNewModule minimalistic-crypto-utils@1.0.1 checking installable status
+266 silly pacote range manifest for hmac-drbg@^1.0.0 fetched in 344ms
+267 silly resolveWithNewModule hmac-drbg@1.0.1 checking installable status
+268 silly pacote range manifest for hash.js@^1.0.0 fetched in 348ms
+269 silly resolveWithNewModule hash.js@1.1.7 checking installable status
+270 silly pacote range manifest for minimalistic-assert@^1.0.0 fetched in 349ms
+271 silly resolveWithNewModule minimalistic-assert@1.0.1 checking installable status
+272 http fetch GET 200 https://registry.npm.taobao.org/browserify-sha3 249ms
+273 http fetch GET 200 https://registry.npm.taobao.org/sha3 252ms
+274 silly pacote range manifest for sha3@^1.2.2 fetched in 271ms
+275 silly resolveWithNewModule sha3@1.2.2 checking installable status
+276 silly pacote range manifest for browserify-sha3@^0.0.4 fetched in 274ms
+277 silly resolveWithNewModule browserify-sha3@0.0.4 checking installable status
+278 http fetch GET 200 https://registry.npm.taobao.org/js-sha3 145ms
+279 silly pacote range manifest for js-sha3@^0.6.1 fetched in 165ms
+280 silly resolveWithNewModule js-sha3@0.6.1 checking installable status
+281 http fetch GET 200 https://registry.npm.taobao.org/nan 610ms
+282 silly pacote version manifest for nan@2.10.0 fetched in 628ms
+283 silly resolveWithNewModule nan@2.10.0 checking installable status
+284 http fetch GET 200 https://registry.npm.taobao.org/cors 152ms
+285 http fetch GET 200 https://registry.npm.taobao.org/body-parser 155ms
+286 silly pacote range manifest for cors@^2.8.1 fetched in 178ms
+287 silly resolveWithNewModule cors@2.8.5 checking installable status
+288 silly pacote range manifest for body-parser@^1.16.0 fetched in 182ms
+289 silly resolveWithNewModule body-parser@1.18.3 checking installable status
+290 http fetch GET 200 https://registry.npm.taobao.org/xhr 219ms
+291 silly pacote range manifest for xhr@^2.3.3 fetched in 235ms
+292 silly resolveWithNewModule xhr@2.5.0 checking installable status
+293 http fetch GET 200 https://registry.npm.taobao.org/request 256ms
+294 silly pacote range manifest for request@^2.79.0 fetched in 279ms
+295 silly resolveWithNewModule request@2.88.0 checking installable status
+296 http fetch GET 200 https://registry.npm.taobao.org/express 478ms
+297 silly pacote range manifest for express@^4.14.0 fetched in 503ms
+298 silly resolveWithNewModule express@4.16.4 checking installable status
+299 http fetch GET 200 https://registry.npm.taobao.org/bytes 225ms
+300 http fetch GET 200 https://registry.npm.taobao.org/content-type 225ms
+301 http fetch GET 200 https://registry.npm.taobao.org/on-finished 205ms
+302 http fetch GET 200 https://registry.npm.taobao.org/type-is 202ms
+303 http fetch GET 200 https://registry.npm.taobao.org/raw-body 206ms
+304 http fetch GET 200 https://registry.npm.taobao.org/depd 229ms
+305 http fetch GET 200 https://registry.npm.taobao.org/debug 239ms
+306 http fetch GET 200 https://registry.npm.taobao.org/iconv-lite 222ms
+307 http fetch GET 200 https://registry.npm.taobao.org/qs 244ms
+308 silly pacote range manifest for on-finished@~2.3.0 fetched in 258ms
+309 silly resolveWithNewModule on-finished@2.3.0 checking installable status
+310 silly pacote range manifest for content-type@~1.0.4 fetched in 281ms
+311 silly resolveWithNewModule content-type@1.0.4 checking installable status
+312 silly pacote version manifest for bytes@3.0.0 fetched in 285ms
+313 silly resolveWithNewModule bytes@3.0.0 checking installable status
+314 silly pacote version manifest for raw-body@2.3.3 fetched in 261ms
+315 silly resolveWithNewModule raw-body@2.3.3 checking installable status
+316 silly pacote range manifest for depd@~1.1.2 fetched in 282ms
+317 silly resolveWithNewModule depd@1.1.2 checking installable status
+318 silly pacote range manifest for type-is@~1.6.16 fetched in 262ms
+319 silly resolveWithNewModule type-is@1.6.16 checking installable status
+320 silly pacote version manifest for debug@2.6.9 fetched in 287ms
+321 silly resolveWithNewModule debug@2.6.9 checking installable status
+322 silly pacote version manifest for iconv-lite@0.4.23 fetched in 271ms
+323 silly resolveWithNewModule iconv-lite@0.4.23 checking installable status
+324 silly pacote version manifest for qs@6.5.2 fetched in 272ms
+325 silly resolveWithNewModule qs@6.5.2 checking installable status
+326 http fetch GET 200 https://registry.npm.taobao.org/http-errors 442ms
+327 silly pacote range manifest for http-errors@~1.6.3 fetched in 468ms
+328 silly resolveWithNewModule http-errors@1.6.3 checking installable status
+329 http fetch GET 200 https://registry.npm.taobao.org/ms 183ms
+330 silly pacote version manifest for ms@2.0.0 fetched in 196ms
+331 silly resolveWithNewModule ms@2.0.0 checking installable status
+332 http fetch GET 200 https://registry.npm.taobao.org/statuses 132ms
+333 silly pacote range manifest for statuses@>= 1.4.0 < 2 fetched in 146ms
+334 silly resolveWithNewModule statuses@1.5.0 checking installable status
+335 http fetch GET 200 https://registry.npm.taobao.org/setprototypeof 1074ms
+336 silly pacote version manifest for setprototypeof@1.1.0 fetched in 1087ms
+337 silly resolveWithNewModule setprototypeof@1.1.0 checking installable status
+338 http fetch GET 200 https://registry.npm.taobao.org/safer-buffer 129ms
+339 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 140ms
+340 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+341 http fetch GET 200 https://registry.npm.taobao.org/ee-first 149ms
+342 silly pacote version manifest for ee-first@1.1.1 fetched in 160ms
+343 silly resolveWithNewModule ee-first@1.1.1 checking installable status
+344 http fetch GET 200 https://registry.npm.taobao.org/unpipe 452ms
+345 silly pacote version manifest for unpipe@1.0.0 fetched in 471ms
+346 silly resolveWithNewModule unpipe@1.0.0 checking installable status
+347 http fetch GET 200 https://registry.npm.taobao.org/media-typer 137ms
+348 silly pacote version manifest for media-typer@0.3.0 fetched in 149ms
+349 silly resolveWithNewModule media-typer@0.3.0 checking installable status
+350 http fetch GET 200 https://registry.npm.taobao.org/mime-db 123ms
+351 silly pacote range manifest for mime-db@~1.38.0 fetched in 136ms
+352 silly resolveWithNewModule mime-db@1.38.0 checking installable status
+353 http fetch GET 200 https://registry.npm.taobao.org/vary 129ms
+354 silly pacote range manifest for vary@^1 fetched in 148ms
+355 silly resolveWithNewModule vary@1.1.2 checking installable status
+356 http fetch GET 200 https://registry.npm.taobao.org/array-flatten 248ms
+357 http fetch GET 200 https://registry.npm.taobao.org/cookie-signature 248ms
+358 http fetch GET 200 https://registry.npm.taobao.org/content-disposition 250ms
+359 http fetch GET 200 https://registry.npm.taobao.org/escape-html 250ms
+360 http fetch GET 200 https://registry.npm.taobao.org/fresh 249ms
+361 http fetch GET 200 https://registry.npm.taobao.org/finalhandler 255ms
+362 http fetch GET 200 https://registry.npm.taobao.org/cookie 275ms
+363 silly pacote version manifest for array-flatten@1.1.1 fetched in 279ms
+364 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+365 silly pacote version manifest for content-disposition@0.5.2 fetched in 282ms
+366 silly resolveWithNewModule content-disposition@0.5.2 checking installable status
+367 silly pacote version manifest for cookie-signature@1.0.6 fetched in 281ms
+368 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+369 silly pacote range manifest for escape-html@~1.0.3 fetched in 286ms
+370 silly resolveWithNewModule escape-html@1.0.3 checking installable status
+371 silly pacote version manifest for fresh@0.5.2 fetched in 286ms
+372 silly resolveWithNewModule fresh@0.5.2 checking installable status
+373 silly pacote version manifest for finalhandler@1.1.1 fetched in 289ms
+374 silly resolveWithNewModule finalhandler@1.1.1 checking installable status
+375 silly pacote version manifest for cookie@0.3.1 fetched in 302ms
+376 silly resolveWithNewModule cookie@0.3.1 checking installable status
+377 http fetch GET 200 https://registry.npm.taobao.org/methods 116ms
+378 http fetch GET 200 https://registry.npm.taobao.org/merge-descriptors 123ms
+379 http fetch GET 200 https://registry.npm.taobao.org/proxy-addr 113ms
+380 http fetch GET 200 https://registry.npm.taobao.org/range-parser 113ms
+381 http fetch GET 200 https://registry.npm.taobao.org/parseurl 123ms
+382 silly pacote range manifest for methods@~1.1.2 fetched in 141ms
+383 silly resolveWithNewModule methods@1.1.2 checking installable status
+384 silly pacote range manifest for proxy-addr@~2.0.4 fetched in 136ms
+385 silly resolveWithNewModule proxy-addr@2.0.4 checking installable status
+386 silly pacote range manifest for range-parser@~1.2.0 fetched in 136ms
+387 silly resolveWithNewModule range-parser@1.2.0 checking installable status
+388 silly pacote version manifest for merge-descriptors@1.0.1 fetched in 153ms
+389 silly resolveWithNewModule merge-descriptors@1.0.1 checking installable status
+390 silly pacote range manifest for parseurl@~1.3.2 fetched in 148ms
+391 silly resolveWithNewModule parseurl@1.3.2 checking installable status
+392 silly pacote range manifest for statuses@~1.4.0 fetched in 25ms
+393 silly resolveWithNewModule statuses@1.4.0 checking installable status
+394 http fetch GET 200 https://registry.npm.taobao.org/send 152ms
+395 http fetch GET 200 https://registry.npm.taobao.org/path-to-regexp 167ms
+396 silly pacote version manifest for send@0.16.2 fetched in 176ms
+397 silly resolveWithNewModule send@0.16.2 checking installable status
+398 silly pacote version manifest for path-to-regexp@0.1.7 fetched in 191ms
+399 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+400 http fetch GET 200 https://registry.npm.taobao.org/utils-merge 106ms
+401 http fetch GET 200 https://registry.npm.taobao.org/serve-static 112ms
+402 silly pacote version manifest for serve-static@1.13.2 fetched in 141ms
+403 silly resolveWithNewModule serve-static@1.13.2 checking installable status
+404 silly pacote version manifest for utils-merge@1.0.1 fetched in 135ms
+405 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+406 http fetch GET 200 https://registry.npm.taobao.org/accepts 598ms
+407 silly pacote range manifest for accepts@~1.3.5 fetched in 619ms
+408 silly resolveWithNewModule accepts@1.3.5 checking installable status
+409 http fetch GET 200 https://registry.npm.taobao.org/etag 714ms
+410 silly pacote range manifest for etag@~1.8.1 fetched in 731ms
+411 silly resolveWithNewModule etag@1.8.1 checking installable status
+412 http fetch GET 200 https://registry.npm.taobao.org/encodeurl 858ms
+413 silly pacote range manifest for encodeurl@~1.0.2 fetched in 872ms
+414 silly resolveWithNewModule encodeurl@1.0.2 checking installable status
+415 http fetch GET 200 https://registry.npm.taobao.org/negotiator 235ms
+416 silly pacote version manifest for negotiator@0.6.1 fetched in 250ms
+417 silly resolveWithNewModule negotiator@0.6.1 checking installable status
+418 silly pacote range manifest for statuses@~1.4.0 fetched in 5ms
+419 silly resolveWithNewModule statuses@1.4.0 checking installable status
+420 http fetch GET 200 https://registry.npm.taobao.org/ipaddr.js 138ms
+421 http fetch GET 200 https://registry.npm.taobao.org/forwarded 147ms
+422 silly pacote version manifest for ipaddr.js@1.8.0 fetched in 153ms
+423 silly resolveWithNewModule ipaddr.js@1.8.0 checking installable status
+424 silly pacote range manifest for forwarded@~0.1.2 fetched in 158ms
+425 silly resolveWithNewModule forwarded@0.1.2 checking installable status
+426 silly pacote range manifest for statuses@~1.4.0 fetched in 5ms
+427 silly resolveWithNewModule statuses@1.4.0 checking installable status
+428 http fetch GET 200 https://registry.npm.taobao.org/destroy 395ms
+429 silly pacote range manifest for destroy@~1.0.4 fetched in 408ms
+430 silly resolveWithNewModule destroy@1.0.4 checking installable status
+431 http fetch GET 200 https://registry.npm.taobao.org/mime 569ms
+432 silly pacote version manifest for mime@1.4.1 fetched in 589ms
+433 silly resolveWithNewModule mime@1.4.1 checking installable status
+434 http fetch GET 200 https://registry.npm.taobao.org/is-typedarray 174ms
+435 http fetch GET 200 https://registry.npm.taobao.org/form-data 178ms
+436 http fetch GET 200 https://registry.npm.taobao.org/caseless 183ms
+437 http fetch GET 200 https://registry.npm.taobao.org/aws-sign2 185ms
+438 http fetch GET 200 https://registry.npm.taobao.org/aws4 186ms
+439 http fetch GET 200 https://registry.npm.taobao.org/forever-agent 185ms
+440 http fetch GET 200 https://registry.npm.taobao.org/har-validator 187ms
+441 silly pacote range manifest for aws-sign2@~0.7.0 fetched in 214ms
+442 silly resolveWithNewModule aws-sign2@0.7.0 checking installable status
+443 silly pacote range manifest for caseless@~0.12.0 fetched in 216ms
+444 silly resolveWithNewModule caseless@0.12.0 checking installable status
+445 silly pacote range manifest for form-data@~2.3.2 fetched in 214ms
+446 silly resolveWithNewModule form-data@2.3.3 checking installable status
+447 silly pacote range manifest for aws4@^1.8.0 fetched in 220ms
+448 silly resolveWithNewModule aws4@1.8.0 checking installable status
+449 silly pacote range manifest for forever-agent@~0.6.1 fetched in 219ms
+450 silly resolveWithNewModule forever-agent@0.6.1 checking installable status
+451 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 219ms
+452 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+453 silly pacote range manifest for har-validator@~5.1.0 fetched in 225ms
+454 silly resolveWithNewModule har-validator@5.1.3 checking installable status
+455 http fetch GET 200 https://registry.npm.taobao.org/combined-stream 236ms
+456 http fetch GET 200 https://registry.npm.taobao.org/extend 254ms
+457 http fetch GET 200 https://registry.npm.taobao.org/http-signature 252ms
+458 silly pacote range manifest for combined-stream@~1.0.6 fetched in 261ms
+459 silly resolveWithNewModule combined-stream@1.0.7 checking installable status
+460 silly pacote range manifest for extend@~3.0.2 fetched in 273ms
+461 silly resolveWithNewModule extend@3.0.2 checking installable status
+462 silly pacote range manifest for http-signature@~1.2.0 fetched in 271ms
+463 silly resolveWithNewModule http-signature@1.2.0 checking installable status
+464 http fetch GET 200 https://registry.npm.taobao.org/performance-now 157ms
+465 http fetch GET 200 https://registry.npm.taobao.org/isstream 165ms
+466 http fetch GET 200 https://registry.npm.taobao.org/tunnel-agent 159ms
+467 http fetch GET 200 https://registry.npm.taobao.org/oauth-sign 166ms
+468 http fetch GET 200 https://registry.npm.taobao.org/uuid 155ms
+469 http fetch GET 200 https://registry.npm.taobao.org/tough-cookie 169ms
+470 silly pacote range manifest for performance-now@^2.1.0 fetched in 190ms
+471 silly resolveWithNewModule performance-now@2.1.0 checking installable status
+472 silly pacote range manifest for isstream@~0.1.2 fetched in 206ms
+473 silly resolveWithNewModule isstream@0.1.2 checking installable status
+474 silly pacote range manifest for uuid@^3.3.2 fetched in 196ms
+475 silly resolveWithNewModule uuid@3.3.2 checking installable status
+476 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 201ms
+477 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+478 silly pacote range manifest for oauth-sign@~0.9.0 fetched in 210ms
+479 silly resolveWithNewModule oauth-sign@0.9.0 checking installable status
+480 silly pacote range manifest for tough-cookie@~2.4.3 fetched in 209ms
+481 silly resolveWithNewModule tough-cookie@2.4.3 checking installable status
+482 http fetch GET 200 https://registry.npm.taobao.org/json-stringify-safe 631ms
+483 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 658ms
+484 silly resolveWithNewModule json-stringify-safe@5.0.1 checking installable status
+485 http fetch GET 200 https://registry.npm.taobao.org/delayed-stream 155ms
+486 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 168ms
+487 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+488 http fetch GET 200 https://registry.npm.taobao.org/asynckit 255ms
+489 silly pacote range manifest for asynckit@^0.4.0 fetched in 265ms
+490 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+491 http fetch GET 200 https://registry.npm.taobao.org/har-schema 256ms
+492 silly pacote range manifest for har-schema@^2.0.0 fetched in 272ms
+493 silly resolveWithNewModule har-schema@2.0.0 checking installable status
+494 http fetch GET 200 https://registry.npm.taobao.org/ajv 711ms
+495 silly pacote range manifest for ajv@^6.5.5 fetched in 723ms
+496 silly resolveWithNewModule ajv@6.10.0 checking installable status
+497 http fetch GET 200 https://registry.npm.taobao.org/fast-json-stable-stringify 151ms
+498 http fetch GET 200 https://registry.npm.taobao.org/json-schema-traverse 164ms
+499 http fetch GET 200 https://registry.npm.taobao.org/fast-deep-equal 165ms
+500 http fetch GET 200 https://registry.npm.taobao.org/uri-js 175ms
+501 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 184ms
+502 silly resolveWithNewModule fast-json-stable-stringify@2.0.0 checking installable status
+503 silly pacote range manifest for json-schema-traverse@^0.4.1 fetched in 197ms
+504 silly resolveWithNewModule json-schema-traverse@0.4.1 checking installable status
+505 silly pacote range manifest for fast-deep-equal@^2.0.1 fetched in 199ms
+506 silly resolveWithNewModule fast-deep-equal@2.0.1 checking installable status
+507 silly pacote range manifest for uri-js@^4.2.2 fetched in 201ms
+508 silly resolveWithNewModule uri-js@4.2.2 checking installable status
+509 http fetch GET 200 https://registry.npm.taobao.org/punycode 252ms
+510 silly pacote range manifest for punycode@^2.1.0 fetched in 264ms
+511 silly resolveWithNewModule punycode@2.1.1 checking installable status
+512 http fetch GET 200 https://registry.npm.taobao.org/assert-plus 156ms
+513 http fetch GET 200 https://registry.npm.taobao.org/jsprim 156ms
+514 silly pacote range manifest for assert-plus@^1.0.0 fetched in 173ms
+515 silly resolveWithNewModule assert-plus@1.0.0 checking installable status
+516 silly pacote range manifest for jsprim@^1.2.2 fetched in 173ms
+517 silly resolveWithNewModule jsprim@1.4.1 checking installable status
+518 http fetch GET 200 https://registry.npm.taobao.org/sshpk 266ms
+519 silly pacote range manifest for sshpk@^1.7.0 fetched in 286ms
+520 silly resolveWithNewModule sshpk@1.16.1 checking installable status
+521 http fetch GET 200 https://registry.npm.taobao.org/extsprintf 221ms
+522 http fetch GET 200 https://registry.npm.taobao.org/verror 232ms
+523 http fetch GET 200 https://registry.npm.taobao.org/json-schema 237ms
+524 silly pacote version manifest for extsprintf@1.3.0 fetched in 247ms
+525 silly resolveWithNewModule extsprintf@1.3.0 checking installable status
+526 silly pacote version manifest for verror@1.10.0 fetched in 259ms
+527 silly resolveWithNewModule verror@1.10.0 checking installable status
+528 silly pacote version manifest for json-schema@0.2.3 fetched in 263ms
+529 silly resolveWithNewModule json-schema@0.2.3 checking installable status
+530 http fetch GET 200 https://registry.npm.taobao.org/asn1 221ms
+531 http fetch GET 200 https://registry.npm.taobao.org/jsbn 222ms
+532 http fetch GET 200 https://registry.npm.taobao.org/ecc-jsbn 222ms
+533 http fetch GET 200 https://registry.npm.taobao.org/dashdash 226ms
+534 http fetch GET 200 https://registry.npm.taobao.org/tweetnacl 227ms
+535 http fetch GET 200 https://registry.npm.taobao.org/getpass 240ms
+536 http fetch GET 200 https://registry.npm.taobao.org/bcrypt-pbkdf 245ms
+537 silly pacote range manifest for asn1@~0.2.3 fetched in 271ms
+538 silly resolveWithNewModule asn1@0.2.4 checking installable status
+539 silly pacote range manifest for jsbn@~0.1.0 fetched in 270ms
+540 silly resolveWithNewModule jsbn@0.1.1 checking installable status
+541 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 271ms
+542 silly resolveWithNewModule ecc-jsbn@0.1.2 checking installable status
+543 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 272ms
+544 silly resolveWithNewModule tweetnacl@0.14.5 checking installable status
+545 silly pacote range manifest for dashdash@^1.12.0 fetched in 275ms
+546 silly resolveWithNewModule dashdash@1.14.1 checking installable status
+547 silly pacote range manifest for getpass@^0.1.1 fetched in 279ms
+548 silly resolveWithNewModule getpass@0.1.7 checking installable status
+549 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 277ms
+550 silly resolveWithNewModule bcrypt-pbkdf@1.0.2 checking installable status
+551 silly pacote range manifest for punycode@^1.4.1 fetched in 17ms
+552 silly resolveWithNewModule punycode@1.4.1 checking installable status
+553 http fetch GET 200 https://registry.npm.taobao.org/psl 167ms
+554 silly pacote range manifest for psl@^1.1.24 fetched in 191ms
+555 silly resolveWithNewModule psl@1.1.31 checking installable status
+556 http fetch GET 200 https://registry.npm.taobao.org/parse-headers 173ms
+557 http fetch GET 200 https://registry.npm.taobao.org/global 174ms
+558 http fetch GET 200 https://registry.npm.taobao.org/is-function 176ms
+559 silly pacote range manifest for global@~4.3.0 fetched in 194ms
+560 silly resolveWithNewModule global@4.3.2 checking installable status
+561 silly pacote range manifest for is-function@^1.0.1 fetched in 194ms
+562 silly resolveWithNewModule is-function@1.0.1 checking installable status
+563 silly pacote range manifest for parse-headers@^2.0.0 fetched in 195ms
+564 silly resolveWithNewModule parse-headers@2.0.2 checking installable status
+565 http fetch GET 200 https://registry.npm.taobao.org/process 130ms
+566 silly pacote range manifest for process@~0.5.1 fetched in 154ms
+567 silly resolveWithNewModule process@0.5.2 checking installable status
+568 http fetch GET 200 https://registry.npm.taobao.org/min-document 204ms
+569 silly pacote range manifest for min-document@^2.19.0 fetched in 215ms
+570 silly resolveWithNewModule min-document@2.19.0 checking installable status
+571 http fetch GET 200 https://registry.npm.taobao.org/dom-walk 233ms
+572 silly pacote range manifest for dom-walk@^0.1.0 fetched in 245ms
+573 silly resolveWithNewModule dom-walk@0.1.1 checking installable status
+574 http fetch GET 200 https://registry.npm.taobao.org/for-each 138ms
+575 http fetch GET 200 https://registry.npm.taobao.org/string.prototype.trim 143ms
+576 silly pacote range manifest for for-each@^0.3.3 fetched in 152ms
+577 silly resolveWithNewModule for-each@0.3.3 checking installable status
+578 silly pacote range manifest for string.prototype.trim@^1.1.2 fetched in 156ms
+579 silly resolveWithNewModule string.prototype.trim@1.1.2 checking installable status
+580 http fetch GET 200 https://registry.npm.taobao.org/is-callable 178ms
+581 silly pacote range manifest for is-callable@^1.1.3 fetched in 202ms
+582 silly resolveWithNewModule is-callable@1.1.4 checking installable status
+583 http fetch GET 200 https://registry.npm.taobao.org/define-properties 132ms
+584 http fetch GET 200 https://registry.npm.taobao.org/es-abstract 141ms
+585 silly pacote range manifest for define-properties@^1.1.2 fetched in 153ms
+586 silly resolveWithNewModule define-properties@1.1.3 checking installable status
+587 http fetch GET 200 https://registry.npm.taobao.org/function-bind 153ms
+588 silly pacote range manifest for es-abstract@^1.5.0 fetched in 161ms
+589 silly resolveWithNewModule es-abstract@1.13.0 checking installable status
+590 silly pacote range manifest for function-bind@^1.0.2 fetched in 168ms
+591 silly resolveWithNewModule function-bind@1.1.1 checking installable status
+592 http fetch GET 200 https://registry.npm.taobao.org/object-keys 367ms
+593 silly pacote range manifest for object-keys@^1.0.12 fetched in 389ms
+594 silly resolveWithNewModule object-keys@1.1.0 checking installable status
+595 http fetch GET 200 https://registry.npm.taobao.org/has 146ms
+596 http fetch GET 200 https://registry.npm.taobao.org/is-regex 153ms
+597 http fetch GET 200 https://registry.npm.taobao.org/es-to-primitive 154ms
+598 silly pacote range manifest for has@^1.0.3 fetched in 164ms
+599 silly resolveWithNewModule has@1.0.3 checking installable status
+600 silly pacote range manifest for is-regex@^1.0.4 fetched in 168ms
+601 silly resolveWithNewModule is-regex@1.0.4 checking installable status
+602 silly pacote range manifest for es-to-primitive@^1.2.0 fetched in 170ms
+603 silly resolveWithNewModule es-to-primitive@1.2.0 checking installable status
+604 http fetch GET 200 https://registry.npm.taobao.org/is-symbol 130ms
+605 silly pacote range manifest for is-symbol@^1.0.2 fetched in 151ms
+606 silly resolveWithNewModule is-symbol@1.0.2 checking installable status
+607 http fetch GET 200 https://registry.npm.taobao.org/is-date-object 152ms
+608 silly pacote range manifest for is-date-object@^1.0.1 fetched in 182ms
+609 silly resolveWithNewModule is-date-object@1.0.1 checking installable status
+610 http fetch GET 200 https://registry.npm.taobao.org/has-symbols 152ms
+611 silly pacote range manifest for has-symbols@^1.0.0 fetched in 163ms
+612 silly resolveWithNewModule has-symbols@1.0.0 checking installable status
+613 http fetch GET 200 https://registry.npm.taobao.org/async-limiter 143ms
+614 http fetch GET 200 https://registry.npm.taobao.org/ultron 156ms
+615 silly pacote range manifest for async-limiter@~1.0.0 fetched in 159ms
+616 silly resolveWithNewModule async-limiter@1.0.0 checking installable status
+617 silly pacote range manifest for ultron@~1.1.0 fetched in 168ms
+618 silly resolveWithNewModule ultron@1.1.1 checking installable status
+619 http fetch GET 200 https://registry.npm.taobao.org/xhr-request 232ms
+620 silly pacote range manifest for xhr-request@^1.0.1 fetched in 244ms
+621 silly resolveWithNewModule xhr-request@1.1.0 checking installable status
+622 http fetch GET 200 https://registry.npm.taobao.org/simple-get 153ms
+623 http fetch GET 200 https://registry.npm.taobao.org/timed-out 158ms
+624 http fetch GET 200 https://registry.npm.taobao.org/query-string 165ms
+625 http fetch GET 200 https://registry.npm.taobao.org/url-set-query 166ms
+626 silly pacote range manifest for timed-out@^4.0.1 fetched in 185ms
+627 silly resolveWithNewModule timed-out@4.0.1 checking installable status
+628 silly pacote range manifest for simple-get@^2.7.0 fetched in 186ms
+629 silly resolveWithNewModule simple-get@2.8.1 checking installable status
+630 silly pacote range manifest for query-string@^5.0.1 fetched in 192ms
+631 silly resolveWithNewModule query-string@5.1.1 checking installable status
+632 silly pacote range manifest for url-set-query@^1.0.0 fetched in 192ms
+633 silly resolveWithNewModule url-set-query@1.0.0 checking installable status
+634 http fetch GET 200 https://registry.npm.taobao.org/buffer-to-arraybuffer 316ms
+635 silly pacote range manifest for buffer-to-arraybuffer@^0.0.5 fetched in 349ms
+636 silly resolveWithNewModule buffer-to-arraybuffer@0.0.5 checking installable status
+637 http fetch GET 200 https://registry.npm.taobao.org/decode-uri-component 142ms
+638 http fetch GET 200 https://registry.npm.taobao.org/strict-uri-encode 150ms
+639 silly pacote range manifest for decode-uri-component@^0.2.0 fetched in 167ms
+640 silly resolveWithNewModule decode-uri-component@0.2.0 checking installable status
+641 silly pacote range manifest for strict-uri-encode@^1.0.0 fetched in 173ms
+642 silly resolveWithNewModule strict-uri-encode@1.1.0 checking installable status
+643 http fetch GET 200 https://registry.npm.taobao.org/simple-concat 141ms
+644 http fetch GET 200 https://registry.npm.taobao.org/decompress-response 142ms
+645 silly pacote range manifest for decompress-response@^3.3.0 fetched in 163ms
+646 silly resolveWithNewModule decompress-response@3.3.0 checking installable status
+647 silly pacote range manifest for simple-concat@^1.0.0 fetched in 164ms
+648 silly resolveWithNewModule simple-concat@1.0.0 checking installable status
+649 http fetch GET 200 https://registry.npm.taobao.org/mimic-response 202ms
+650 silly pacote range manifest for mimic-response@^1.0.0 fetched in 216ms
+651 silly resolveWithNewModule mimic-response@1.0.1 checking installable status
+652 http fetch GET 200 https://registry.npm.taobao.org/jsonfile 140ms
+653 silly pacote range manifest for jsonfile@^4.0.0 fetched in 155ms
+654 silly resolveWithNewModule jsonfile@4.0.0 checking installable status
+655 http fetch GET 200 https://registry.npm.taobao.org/universalify 201ms
+656 silly pacote range manifest for universalify@^0.1.0 fetched in 212ms
+657 silly resolveWithNewModule universalify@0.1.2 checking installable status
+658 silly pacote range manifest for get-stream@^3.0.0 fetched in 28ms
+659 silly resolveWithNewModule get-stream@3.0.0 checking installable status
+660 http fetch GET 200 https://registry.npm.taobao.org/url-to-options 227ms
+661 http fetch GET 200 https://registry.npm.taobao.org/p-cancelable 230ms
+662 http fetch GET 200 https://registry.npm.taobao.org/is-plain-obj 234ms
+663 http fetch GET 200 https://registry.npm.taobao.org/url-parse-lax 229ms
+664 http fetch GET 200 https://registry.npm.taobao.org/duplexer3 235ms
+665 http fetch GET 200 https://registry.npm.taobao.org/is-retry-allowed 234ms
+666 http fetch GET 200 https://registry.npm.taobao.org/p-timeout 231ms
+667 http fetch GET 200 https://registry.npm.taobao.org/isurl 236ms
+668 http fetch GET 200 https://registry.npm.taobao.org/lowercase-keys 236ms
+669 silly pacote range manifest for url-to-options@^1.0.1 fetched in 271ms
+670 silly resolveWithNewModule url-to-options@1.0.1 checking installable status
+671 silly pacote range manifest for duplexer3@^0.1.4 fetched in 278ms
+672 silly resolveWithNewModule duplexer3@0.1.4 checking installable status
+673 silly pacote range manifest for p-cancelable@^0.3.0 fetched in 276ms
+674 silly resolveWithNewModule p-cancelable@0.3.0 checking installable status
+675 silly pacote range manifest for isurl@^1.0.0-alpha5 fetched in 277ms
+676 silly resolveWithNewModule isurl@1.0.0 checking installable status
+677 silly pacote range manifest for url-parse-lax@^1.0.0 fetched in 276ms
+678 silly resolveWithNewModule url-parse-lax@1.0.0 checking installable status
+679 silly pacote range manifest for p-timeout@^1.1.1 fetched in 277ms
+680 silly resolveWithNewModule p-timeout@1.2.1 checking installable status
+681 silly pacote range manifest for is-retry-allowed@^1.0.0 fetched in 280ms
+682 silly resolveWithNewModule is-retry-allowed@1.1.0 checking installable status
+683 silly pacote range manifest for is-plain-obj@^1.1.0 fetched in 282ms
+684 silly resolveWithNewModule is-plain-obj@1.1.0 checking installable status
+685 silly pacote range manifest for lowercase-keys@^1.0.0 fetched in 279ms
+686 silly resolveWithNewModule lowercase-keys@1.0.1 checking installable status
+687 http fetch GET 200 https://registry.npm.taobao.org/is-object 165ms
+688 http fetch GET 200 https://registry.npm.taobao.org/has-to-string-tag-x 165ms
+689 silly pacote range manifest for is-object@^1.0.1 fetched in 180ms
+690 silly resolveWithNewModule is-object@1.0.1 checking installable status
+691 silly pacote range manifest for has-to-string-tag-x@^1.2.0 fetched in 182ms
+692 silly resolveWithNewModule has-to-string-tag-x@1.4.1 checking installable status
+693 http fetch GET 200 https://registry.npm.taobao.org/has-symbol-support-x 600ms
+694 silly pacote range manifest for has-symbol-support-x@^1.4.1 fetched in 623ms
+695 silly resolveWithNewModule has-symbol-support-x@1.4.2 checking installable status
+696 http fetch GET 200 https://registry.npm.taobao.org/p-finally 135ms
+697 silly pacote range manifest for p-finally@^1.0.0 fetched in 144ms
+698 silly resolveWithNewModule p-finally@1.0.0 checking installable status
+699 http fetch GET 200 https://registry.npm.taobao.org/prepend-http 785ms
+700 silly pacote range manifest for prepend-http@^1.0.1 fetched in 796ms
+701 silly resolveWithNewModule prepend-http@1.0.4 checking installable status
+702 http fetch GET 200 https://registry.npm.taobao.org/mkdirp 523ms
+703 silly pacote range manifest for mkdirp@* fetched in 543ms
+704 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+705 http fetch GET 200 https://registry.npm.taobao.org/minimist 130ms
+706 silly pacote version manifest for minimist@0.0.8 fetched in 142ms
+707 silly resolveWithNewModule minimist@0.0.8 checking installable status
+708 http fetch GET 200 https://registry.npm.taobao.org/minizlib 158ms
+709 http fetch GET 200 https://registry.npm.taobao.org/chownr 161ms
+710 http fetch GET 200 https://registry.npm.taobao.org/yallist 159ms
+711 http fetch GET 200 https://registry.npm.taobao.org/fs-minipass 165ms
+712 http fetch GET 200 https://registry.npm.taobao.org/minipass 174ms
+713 silly pacote range manifest for minizlib@^1.1.1 fetched in 193ms
+714 silly resolveWithNewModule minizlib@1.2.1 checking installable status
+715 silly pacote range manifest for yallist@^3.0.2 fetched in 198ms
+716 silly resolveWithNewModule yallist@3.0.3 checking installable status
+717 silly pacote range manifest for fs-minipass@^1.2.5 fetched in 204ms
+718 silly resolveWithNewModule fs-minipass@1.2.5 checking installable status
+719 silly pacote range manifest for minipass@^2.3.4 fetched in 204ms
+720 silly resolveWithNewModule minipass@2.3.5 checking installable status
+721 silly pacote range manifest for chownr@^1.1.1 fetched in 206ms
+722 silly resolveWithNewModule chownr@1.1.1 checking installable status
+723 silly pacote version manifest for eth-lib@0.2.8 fetched in 21ms
+724 silly resolveWithNewModule eth-lib@0.2.8 checking installable status
+725 http fetch GET 200 https://registry.npm.taobao.org/@types%2fbn.js 155ms
+726 http fetch GET 200 https://registry.npm.taobao.org/number-to-bn 154ms
+727 silly pacote version manifest for number-to-bn@1.7.0 fetched in 174ms
+728 silly resolveWithNewModule number-to-bn@1.7.0 checking installable status
+729 silly pacote range manifest for @types/bn.js@^4.11.4 fetched in 176ms
+730 silly resolveWithNewModule @types/bn.js@4.11.4 checking installable status
+731 http fetch GET 200 https://registry.npm.taobao.org/ethjs-unit 257ms
+732 silly pacote range manifest for ethjs-unit@^0.1.6 fetched in 286ms
+733 silly resolveWithNewModule ethjs-unit@0.1.6 checking installable status
+734 http fetch GET 200 https://registry.npm.taobao.org/utf8 453ms
+735 silly pacote version manifest for utf8@2.1.1 fetched in 465ms
+736 silly resolveWithNewModule utf8@2.1.1 checking installable status
+737 http fetch GET 200 https://registry.npm.taobao.org/randomhex 691ms
+738 silly pacote version manifest for randomhex@0.1.5 fetched in 706ms
+739 silly resolveWithNewModule randomhex@0.1.5 checking installable status
+740 silly pacote version manifest for bn.js@4.11.6 fetched in 12ms
+741 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+742 silly pacote version manifest for bn.js@4.11.6 fetched in 4ms
+743 silly resolveWithNewModule bn.js@4.11.6 checking installable status
+744 http fetch GET 200 https://registry.npm.taobao.org/strip-hex-prefix 136ms
+745 silly pacote version manifest for strip-hex-prefix@1.0.0 fetched in 150ms
+746 silly resolveWithNewModule strip-hex-prefix@1.0.0 checking installable status
+747 http fetch GET 200 https://registry.npm.taobao.org/is-hex-prefixed 217ms
+748 silly pacote version manifest for is-hex-prefixed@1.0.0 fetched in 231ms
+749 silly resolveWithNewModule is-hex-prefixed@1.0.0 checking installable status
+750 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-iban 129ms
+751 silly pacote version manifest for web3-eth-iban@1.0.0-beta.48 fetched in 141ms
+752 silly resolveWithNewModule web3-eth-iban@1.0.0-beta.48 checking installable status
+753 http fetch GET 200 https://registry.npm.taobao.org/eventemitter3 127ms
+754 silly pacote version manifest for eventemitter3@3.1.0 fetched in 139ms
+755 silly resolveWithNewModule eventemitter3@3.1.0 checking installable status
+756 http fetch GET 200 https://registry.npm.taobao.org/web3-core-promievent 187ms
+757 silly pacote version manifest for web3-core-promievent@1.0.0-beta.48 fetched in 198ms
+758 silly resolveWithNewModule web3-core-promievent@1.0.0-beta.48 checking installable status
+759 http fetch GET 200 https://registry.npm.taobao.org/web3-core-subscriptions 279ms
+760 silly pacote version manifest for web3-core-subscriptions@1.0.0-beta.48 fetched in 289ms
+761 silly resolveWithNewModule web3-core-subscriptions@1.0.0-beta.48 checking installable status
+762 silly pacote version manifest for eth-lib@0.2.8 fetched in 7ms
+763 silly resolveWithNewModule eth-lib@0.2.8 checking installable status
+764 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-abi 141ms
+765 silly pacote version manifest for web3-eth-abi@1.0.0-beta.48 fetched in 156ms
+766 silly resolveWithNewModule web3-eth-abi@1.0.0-beta.48 checking installable status
+767 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-ens 225ms
+768 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-accounts 235ms
+769 silly pacote version manifest for web3-eth-ens@1.0.0-beta.48 fetched in 241ms
+770 silly resolveWithNewModule web3-eth-ens@1.0.0-beta.48 checking installable status
+771 silly pacote version manifest for web3-eth-accounts@1.0.0-beta.48 fetched in 249ms
+772 silly resolveWithNewModule web3-eth-accounts@1.0.0-beta.48 checking installable status
+773 http fetch GET 200 https://registry.npm.taobao.org/web3-eth-contract 262ms
+774 silly pacote version manifest for web3-eth-contract@1.0.0-beta.48 fetched in 286ms
+775 silly resolveWithNewModule web3-eth-contract@1.0.0-beta.48 checking installable status
+776 http fetch GET 200 https://registry.npm.taobao.org/ethers 1485ms
+777 silly pacote version manifest for ethers@4.0.26 fetched in 1499ms
+778 silly resolveWithNewModule ethers@4.0.26 checking installable status
+779 silly pacote version manifest for js-sha3@0.5.7 fetched in 28ms
+780 silly resolveWithNewModule js-sha3@0.5.7 checking installable status
+781 silly pacote version manifest for elliptic@6.3.3 fetched in 30ms
+782 silly resolveWithNewModule elliptic@6.3.3 checking installable status
+783 silly pacote version manifest for setimmediate@1.0.4 fetched in 30ms
+784 silly resolveWithNewModule setimmediate@1.0.4 checking installable status
+785 silly pacote version manifest for hash.js@1.1.3 fetched in 31ms
+786 silly resolveWithNewModule hash.js@1.1.3 checking installable status
+787 silly pacote version manifest for uuid@2.0.1 fetched in 30ms
+788 silly resolveWithNewModule uuid@2.0.1 checking installable status
+789 http fetch GET 200 https://registry.npm.taobao.org/aes-js 144ms
+790 http fetch GET 200 https://registry.npm.taobao.org/xmlhttprequest 144ms
+791 silly pacote version manifest for aes-js@3.0.0 fetched in 159ms
+792 silly resolveWithNewModule aes-js@3.0.0 checking installable status
+793 silly pacote version manifest for xmlhttprequest@1.8.0 fetched in 158ms
+794 silly resolveWithNewModule xmlhttprequest@1.8.0 checking installable status
+795 http fetch GET 200 https://registry.npm.taobao.org/scrypt-js 478ms
+796 silly pacote version manifest for scrypt-js@2.0.4 fetched in 494ms
+797 silly resolveWithNewModule scrypt-js@2.0.4 checking installable status
+798 silly pacote version manifest for eth-lib@0.2.8 fetched in 5ms
+799 silly resolveWithNewModule eth-lib@0.2.8 checking installable status
+800 http fetch GET 200 https://registry.npm.taobao.org/scrypt.js 159ms
+801 silly pacote version manifest for scrypt.js@0.2.0 fetched in 172ms
+802 silly resolveWithNewModule scrypt.js@0.2.0 checking installable status
+803 http fetch GET 200 https://registry.npm.taobao.org/crypto-browserify 254ms
+804 silly pacote version manifest for crypto-browserify@3.12.0 fetched in 265ms
+805 silly resolveWithNewModule crypto-browserify@3.12.0 checking installable status
+806 http fetch GET 200 https://registry.npm.taobao.org/browserify-sign 160ms
+807 http fetch GET 200 https://registry.npm.taobao.org/pbkdf2 165ms
+808 http fetch GET 200 https://registry.npm.taobao.org/browserify-cipher 169ms
+809 http fetch GET 200 https://registry.npm.taobao.org/create-ecdh 187ms
+810 http fetch GET 200 https://registry.npm.taobao.org/create-hmac 188ms
+811 http fetch GET 200 https://registry.npm.taobao.org/randomfill 186ms
+812 http fetch GET 200 https://registry.npm.taobao.org/diffie-hellman 195ms
+813 http fetch GET 200 https://registry.npm.taobao.org/randombytes 199ms
+814 http fetch GET 200 https://registry.npm.taobao.org/create-hash 207ms
+815 http fetch GET 200 https://registry.npm.taobao.org/public-encrypt 248ms
+816 silly pacote range manifest for browserify-sign@^4.0.0 fetched in 290ms
+817 silly resolveWithNewModule browserify-sign@4.0.4 checking installable status
+818 silly pacote range manifest for pbkdf2@^3.0.3 fetched in 289ms
+819 silly resolveWithNewModule pbkdf2@3.0.17 checking installable status
+820 silly pacote range manifest for browserify-cipher@^1.0.0 fetched in 293ms
+821 silly resolveWithNewModule browserify-cipher@1.0.1 checking installable status
+822 silly pacote range manifest for create-ecdh@^4.0.0 fetched in 301ms
+823 silly resolveWithNewModule create-ecdh@4.0.3 checking installable status
+824 silly pacote range manifest for randomfill@^1.0.3 fetched in 300ms
+825 silly resolveWithNewModule randomfill@1.0.4 checking installable status
+826 silly pacote range manifest for create-hmac@^1.1.0 fetched in 305ms
+827 silly resolveWithNewModule create-hmac@1.1.7 checking installable status
+828 silly pacote range manifest for randombytes@^2.0.0 fetched in 304ms
+829 silly resolveWithNewModule randombytes@2.1.0 checking installable status
+830 silly pacote range manifest for create-hash@^1.1.0 fetched in 308ms
+831 silly resolveWithNewModule create-hash@1.2.0 checking installable status
+832 silly pacote range manifest for diffie-hellman@^5.0.0 fetched in 308ms
+833 silly resolveWithNewModule diffie-hellman@5.0.3 checking installable status
+834 silly pacote range manifest for public-encrypt@^4.0.0 fetched in 309ms
+835 silly resolveWithNewModule public-encrypt@4.0.3 checking installable status
+836 http fetch GET 200 https://registry.npm.taobao.org/browserify-des 134ms
+837 http fetch GET 200 https://registry.npm.taobao.org/evp_bytestokey 147ms
+838 silly pacote range manifest for evp_bytestokey@^1.0.0 fetched in 166ms
+839 silly resolveWithNewModule evp_bytestokey@1.0.3 checking installable status
+840 silly pacote range manifest for browserify-des@^1.0.0 fetched in 168ms
+841 silly resolveWithNewModule browserify-des@1.0.2 checking installable status
+842 http fetch GET 200 https://registry.npm.taobao.org/browserify-aes 347ms
+843 silly pacote range manifest for browserify-aes@^1.0.4 fetched in 371ms
+844 silly resolveWithNewModule browserify-aes@1.2.0 checking installable status
+845 http fetch GET 200 https://registry.npm.taobao.org/buffer-xor 129ms
+846 http fetch GET 200 https://registry.npm.taobao.org/cipher-base 142ms
+847 silly pacote range manifest for cipher-base@^1.0.0 fetched in 172ms
+848 silly resolveWithNewModule cipher-base@1.0.4 checking installable status
+849 silly pacote range manifest for buffer-xor@^1.0.3 fetched in 173ms
+850 silly resolveWithNewModule buffer-xor@1.0.3 checking installable status
+851 http fetch GET 200 https://registry.npm.taobao.org/md5.js 230ms
+852 http fetch GET 200 https://registry.npm.taobao.org/sha.js 231ms
+853 silly pacote range manifest for md5.js@^1.3.4 fetched in 258ms
+854 silly resolveWithNewModule md5.js@1.3.5 checking installable status
+855 silly pacote range manifest for sha.js@^2.4.0 fetched in 258ms
+856 silly resolveWithNewModule sha.js@2.4.11 checking installable status
+857 http fetch GET 200 https://registry.npm.taobao.org/ripemd160 693ms
+858 silly pacote range manifest for ripemd160@^2.0.1 fetched in 705ms
+859 silly resolveWithNewModule ripemd160@2.0.2 checking installable status
+860 http fetch GET 200 https://registry.npm.taobao.org/hash-base 124ms
+861 silly pacote range manifest for hash-base@^3.0.0 fetched in 142ms
+862 silly resolveWithNewModule hash-base@3.0.4 checking installable status
+863 http fetch GET 200 https://registry.npm.taobao.org/des.js 139ms
+864 silly pacote range manifest for des.js@^1.0.0 fetched in 151ms
+865 silly resolveWithNewModule des.js@1.0.0 checking installable status
+866 http fetch GET 200 https://registry.npm.taobao.org/parse-asn1 144ms
+867 http fetch GET 200 https://registry.npm.taobao.org/browserify-rsa 145ms
+868 silly pacote range manifest for browserify-rsa@^4.0.0 fetched in 162ms
+869 silly resolveWithNewModule browserify-rsa@4.0.1 checking installable status
+870 silly pacote range manifest for parse-asn1@^5.0.0 fetched in 163ms
+871 silly resolveWithNewModule parse-asn1@5.1.4 checking installable status
+872 http fetch GET 200 https://registry.npm.taobao.org/asn1.js 304ms
+873 silly pacote range manifest for asn1.js@^4.0.0 fetched in 333ms
+874 silly resolveWithNewModule asn1.js@4.10.1 checking installable status
+875 http fetch GET 200 https://registry.npm.taobao.org/miller-rabin 231ms
+876 silly pacote range manifest for miller-rabin@^4.0.0 fetched in 256ms
+877 silly resolveWithNewModule miller-rabin@4.0.1 checking installable status
+878 http fetch GET 200 https://registry.npm.taobao.org/scrypt 146ms
+879 silly pacote range manifest for scrypt@^6.0.2 fetched in 155ms
+880 silly resolveWithNewModule scrypt@6.0.3 checking installable status
+881 http fetch GET 200 https://registry.npm.taobao.org/scryptsy 355ms
+882 silly pacote range manifest for scryptsy@^1.2.1 fetched in 377ms
+883 silly resolveWithNewModule scryptsy@1.2.1 checking installable status
+884 silly fetchPackageMetaData error for websocket@git://github.com/frozeman/WebSocket-Node.git#browserifyCompatible Error while executing:
+884 silly fetchPackageMetaData undefined ls-remote -h -t git://github.com/frozeman/WebSocket-Node.git
+884 silly fetchPackageMetaData
+884 silly fetchPackageMetaData undefined
+884 silly fetchPackageMetaData No git binary found in $PATH
+885 http fetch GET 200 https://registry.npm.taobao.org/xhr2-cookies 168ms
+886 http fetch GET 200 https://registry.npm.taobao.org/url-parse 180ms
+887 silly pacote version manifest for xhr2-cookies@1.1.0 fetched in 193ms
+888 silly resolveWithNewModule xhr2-cookies@1.1.0 checking installable status
+889 silly pacote version manifest for url-parse@1.4.4 fetched in 204ms
+890 silly resolveWithNewModule url-parse@1.4.4 checking installable status
+891 http fetch GET 200 https://registry.npm.taobao.org/oboe 299ms
+892 silly pacote version manifest for oboe@2.1.4 fetched in 313ms
+893 silly resolveWithNewModule oboe@2.1.4 checking installable status
+894 timing stage:rollbackFailedOptional Completed in 1ms
+895 timing stage:runTopLevelLifecycles Completed in 44239ms
+896 silly saveTree listen_send
+896 silly saveTree └─┬ web3@1.0.0-beta.48
+896 silly saveTree   ├─┬ @babel/runtime@7.3.4
+896 silly saveTree   │ └── regenerator-runtime@0.12.1
+896 silly saveTree   ├── @types/node@10.12.29
+896 silly saveTree   ├─┬ web3-bzz@1.0.0-beta.48
+896 silly saveTree   │ ├── lodash@4.17.11
+896 silly saveTree   │ └─┬ swarm-js@0.1.39
+896 silly saveTree   │   ├── bluebird@3.5.3
+896 silly saveTree   │   ├─┬ buffer@5.2.1
+896 silly saveTree   │   │ ├── base64-js@1.3.0
+896 silly saveTree   │   │ └── ieee754@1.1.12
+896 silly saveTree   │   ├─┬ decompress@4.2.0
+896 silly saveTree   │   │ ├─┬ decompress-tar@4.1.1
+896 silly saveTree   │   │ │ ├── file-type@5.2.0
+896 silly saveTree   │   │ │ ├── is-stream@1.1.0
+896 silly saveTree   │   │ │ └─┬ tar-stream@1.6.2
+896 silly saveTree   │   │ │   ├─┬ bl@1.2.2
+896 silly saveTree   │   │ │   │ ├─┬ readable-stream@2.3.6
+896 silly saveTree   │   │ │   │ │ ├── core-util-is@1.0.2
+896 silly saveTree   │   │ │   │ │ ├── inherits@2.0.3
+896 silly saveTree   │   │ │   │ │ ├── isarray@1.0.0
+896 silly saveTree   │   │ │   │ │ ├── process-nextick-args@2.0.0
+896 silly saveTree   │   │ │   │ │ ├── safe-buffer@5.1.2
+896 silly saveTree   │   │ │   │ │ ├── string_decoder@1.1.1
+896 silly saveTree   │   │ │   │ │ └── util-deprecate@1.0.2
+896 silly saveTree   │   │ │   │ └── safe-buffer@5.1.2
+896 silly saveTree   │   │ │   ├─┬ buffer-alloc@1.2.0
+896 silly saveTree   │   │ │   │ ├── buffer-alloc-unsafe@1.1.0
+896 silly saveTree   │   │ │   │ └── buffer-fill@1.0.0
+896 silly saveTree   │   │ │   ├─┬ end-of-stream@1.4.1
+896 silly saveTree   │   │ │   │ └─┬ once@1.4.0
+896 silly saveTree   │   │ │   │   └── wrappy@1.0.2
+896 silly saveTree   │   │ │   ├── fs-constants@1.0.0
+896 silly saveTree   │   │ │   ├── readable-stream@2.3.6
+896 silly saveTree   │   │ │   ├── to-buffer@1.1.1
+896 silly saveTree   │   │ │   └── xtend@4.0.1
+896 silly saveTree   │   │ ├─┬ decompress-tarbz2@4.1.1
+896 silly saveTree   │   │ │ ├── file-type@6.2.0
+896 silly saveTree   │   │ │ ├─┬ seek-bzip@1.0.5
+896 silly saveTree   │   │ │ │ └─┬ commander@2.8.1
+896 silly saveTree   │   │ │ │   └── graceful-readlink@1.0.1
+896 silly saveTree   │   │ │ └─┬ unbzip2-stream@1.3.3
+896 silly saveTree   │   │ │   └── through@2.3.8
+896 silly saveTree   │   │ ├── decompress-targz@4.1.1
+896 silly saveTree   │   │ ├─┬ decompress-unzip@4.0.1
+896 silly saveTree   │   │ │ ├── file-type@3.9.0
+896 silly saveTree   │   │ │ ├─┬ get-stream@2.3.1
+896 silly saveTree   │   │ │ │ ├── object-assign@4.1.1
+896 silly saveTree   │   │ │ │ └─┬ pinkie-promise@2.0.1
+896 silly saveTree   │   │ │ │   └── pinkie@2.0.4
+896 silly saveTree   │   │ │ ├── pify@2.3.0
+896 silly saveTree   │   │ │ └─┬ yauzl@2.10.0
+896 silly saveTree   │   │ │   ├── buffer-crc32@0.2.13
+896 silly saveTree   │   │ │   └─┬ fd-slicer@1.1.0
+896 silly saveTree   │   │ │     └── pend@1.2.0
+896 silly saveTree   │   │ ├── graceful-fs@4.1.15
+896 silly saveTree   │   │ ├─┬ make-dir@1.3.0
+896 silly saveTree   │   │ │ └── pify@3.0.0
+896 silly saveTree   │   │ ├── pify@2.3.0
+896 silly saveTree   │   │ └─┬ strip-dirs@2.1.0
+896 silly saveTree   │   │   └── is-natural-number@4.0.1
+896 silly saveTree   │   ├─┬ eth-lib@0.1.27
+896 silly saveTree   │   │ ├── bn.js@4.11.8
+896 silly saveTree   │   │ ├─┬ elliptic@6.4.1
+896 silly saveTree   │   │ │ ├── brorand@1.1.0
+896 silly saveTree   │   │ │ ├─┬ hash.js@1.1.7
+896 silly saveTree   │   │ │ │ └── minimalistic-assert@1.0.1
+896 silly saveTree   │   │ │ ├─┬ hmac-drbg@1.0.1
+896 silly saveTree   │   │ │ │ └── minimalistic-crypto-utils@1.0.1
+896 silly saveTree   │   │ │ ├── minimalistic-assert@1.0.1
+896 silly saveTree   │   │ │ └── minimalistic-crypto-utils@1.0.1
+896 silly saveTree   │   │ ├─┬ keccakjs@0.2.3
+896 silly saveTree   │   │ │ ├─┬ browserify-sha3@0.0.4
+896 silly saveTree   │   │ │ │ └── js-sha3@0.6.1
+896 silly saveTree   │   │ │ └─┬ sha3@1.2.2
+896 silly saveTree   │   │ │   └── nan@2.10.0
+896 silly saveTree   │   │ ├── nano-json-stream-parser@0.1.2
+896 silly saveTree   │   │ ├─┬ servify@0.1.12
+896 silly saveTree   │   │ │ ├─┬ body-parser@1.18.3
+896 silly saveTree   │   │ │ │ ├── bytes@3.0.0
+896 silly saveTree   │   │ │ │ ├── content-type@1.0.4
+896 silly saveTree   │   │ │ │ ├─┬ debug@2.6.9
+896 silly saveTree   │   │ │ │ │ └── ms@2.0.0
+896 silly saveTree   │   │ │ │ ├── depd@1.1.2
+896 silly saveTree   │   │ │ │ ├─┬ http-errors@1.6.3
+896 silly saveTree   │   │ │ │ │ ├── setprototypeof@1.1.0
+896 silly saveTree   │   │ │ │ │ └── statuses@1.5.0
+896 silly saveTree   │   │ │ │ ├─┬ iconv-lite@0.4.23
+896 silly saveTree   │   │ │ │ │ └── safer-buffer@2.1.2
+896 silly saveTree   │   │ │ │ ├─┬ on-finished@2.3.0
+896 silly saveTree   │   │ │ │ │ └── ee-first@1.1.1
+896 silly saveTree   │   │ │ │ ├── qs@6.5.2
+896 silly saveTree   │   │ │ │ ├─┬ raw-body@2.3.3
+896 silly saveTree   │   │ │ │ │ └── unpipe@1.0.0
+896 silly saveTree   │   │ │ │ └─┬ type-is@1.6.16
+896 silly saveTree   │   │ │ │   ├── media-typer@0.3.0
+896 silly saveTree   │   │ │ │   └─┬ mime-types@2.1.22
+896 silly saveTree   │   │ │ │     └── mime-db@1.38.0
+896 silly saveTree   │   │ │ ├─┬ cors@2.8.5
+896 silly saveTree   │   │ │ │ └── vary@1.1.2
+896 silly saveTree   │   │ │ ├─┬ express@4.16.4
+896 silly saveTree   │   │ │ │ ├─┬ accepts@1.3.5
+896 silly saveTree   │   │ │ │ │ └── negotiator@0.6.1
+896 silly saveTree   │   │ │ │ ├── array-flatten@1.1.1
+896 silly saveTree   │   │ │ │ ├── content-disposition@0.5.2
+896 silly saveTree   │   │ │ │ ├── cookie-signature@1.0.6
+896 silly saveTree   │   │ │ │ ├── cookie@0.3.1
+896 silly saveTree   │   │ │ │ ├── encodeurl@1.0.2
+896 silly saveTree   │   │ │ │ ├── escape-html@1.0.3
+896 silly saveTree   │   │ │ │ ├── etag@1.8.1
+896 silly saveTree   │   │ │ │ ├─┬ finalhandler@1.1.1
+896 silly saveTree   │   │ │ │ │ ├── parseurl@1.3.2
+896 silly saveTree   │   │ │ │ │ └── statuses@1.4.0
+896 silly saveTree   │   │ │ │ ├── fresh@0.5.2
+896 silly saveTree   │   │ │ │ ├── merge-descriptors@1.0.1
+896 silly saveTree   │   │ │ │ ├── methods@1.1.2
+896 silly saveTree   │   │ │ │ ├── parseurl@1.3.2
+896 silly saveTree   │   │ │ │ ├── path-to-regexp@0.1.7
+896 silly saveTree   │   │ │ │ ├─┬ proxy-addr@2.0.4
+896 silly saveTree   │   │ │ │ │ ├── forwarded@0.1.2
+896 silly saveTree   │   │ │ │ │ └── ipaddr.js@1.8.0
+896 silly saveTree   │   │ │ │ ├── range-parser@1.2.0
+896 silly saveTree   │   │ │ │ ├─┬ send@0.16.2
+896 silly saveTree   │   │ │ │ │ ├── destroy@1.0.4
+896 silly saveTree   │   │ │ │ │ ├── mime@1.4.1
+896 silly saveTree   │   │ │ │ │ └── statuses@1.4.0
+896 silly saveTree   │   │ │ │ ├── serve-static@1.13.2
+896 silly saveTree   │   │ │ │ ├── statuses@1.4.0
+896 silly saveTree   │   │ │ │ └── utils-merge@1.0.1
+896 silly saveTree   │   │ │ ├─┬ request@2.88.0
+896 silly saveTree   │   │ │ │ ├── aws-sign2@0.7.0
+896 silly saveTree   │   │ │ │ ├── aws4@1.8.0
+896 silly saveTree   │   │ │ │ ├── caseless@0.12.0
+896 silly saveTree   │   │ │ │ ├─┬ combined-stream@1.0.7
+896 silly saveTree   │   │ │ │ │ └── delayed-stream@1.0.0
+896 silly saveTree   │   │ │ │ ├── extend@3.0.2
+896 silly saveTree   │   │ │ │ ├── forever-agent@0.6.1
+896 silly saveTree   │   │ │ │ ├─┬ form-data@2.3.3
+896 silly saveTree   │   │ │ │ │ └── asynckit@0.4.0
+896 silly saveTree   │   │ │ │ ├─┬ har-validator@5.1.3
+896 silly saveTree   │   │ │ │ │ ├─┬ ajv@6.10.0
+896 silly saveTree   │   │ │ │ │ │ ├── fast-deep-equal@2.0.1
+896 silly saveTree   │   │ │ │ │ │ ├── fast-json-stable-stringify@2.0.0
+896 silly saveTree   │   │ │ │ │ │ ├── json-schema-traverse@0.4.1
+896 silly saveTree   │   │ │ │ │ │ └─┬ uri-js@4.2.2
+896 silly saveTree   │   │ │ │ │ │   └── punycode@2.1.1
+896 silly saveTree   │   │ │ │ │ └── har-schema@2.0.0
+896 silly saveTree   │   │ │ │ ├─┬ http-signature@1.2.0
+896 silly saveTree   │   │ │ │ │ ├── assert-plus@1.0.0
+896 silly saveTree   │   │ │ │ │ ├─┬ jsprim@1.4.1
+896 silly saveTree   │   │ │ │ │ │ ├── extsprintf@1.3.0
+896 silly saveTree   │   │ │ │ │ │ ├── json-schema@0.2.3
+896 silly saveTree   │   │ │ │ │ │ └── verror@1.10.0
+896 silly saveTree   │   │ │ │ │ └─┬ sshpk@1.16.1
+896 silly saveTree   │   │ │ │ │   ├── asn1@0.2.4
+896 silly saveTree   │   │ │ │ │   ├─┬ bcrypt-pbkdf@1.0.2
+896 silly saveTree   │   │ │ │ │   │ └── tweetnacl@0.14.5
+896 silly saveTree   │   │ │ │ │   ├── dashdash@1.14.1
+896 silly saveTree   │   │ │ │ │   ├─┬ ecc-jsbn@0.1.2
+896 silly saveTree   │   │ │ │ │   │ └── jsbn@0.1.1
+896 silly saveTree   │   │ │ │ │   ├── getpass@0.1.7
+896 silly saveTree   │   │ │ │ │   ├── jsbn@0.1.1
+896 silly saveTree   │   │ │ │ │   └── tweetnacl@0.14.5
+896 silly saveTree   │   │ │ │ ├── is-typedarray@1.0.0
+896 silly saveTree   │   │ │ │ ├── isstream@0.1.2
+896 silly saveTree   │   │ │ │ ├── json-stringify-safe@5.0.1
+896 silly saveTree   │   │ │ │ ├── oauth-sign@0.9.0
+896 silly saveTree   │   │ │ │ ├── performance-now@2.1.0
+896 silly saveTree   │   │ │ │ ├─┬ tough-cookie@2.4.3
+896 silly saveTree   │   │ │ │ │ ├── psl@1.1.31
+896 silly saveTree   │   │ │ │ │ └── punycode@1.4.1
+896 silly saveTree   │   │ │ │ ├── tunnel-agent@0.6.0
+896 silly saveTree   │   │ │ │ └── uuid@3.3.2
+896 silly saveTree   │   │ │ └─┬ xhr@2.5.0
+896 silly saveTree   │   │ │   ├─┬ global@4.3.2
+896 silly saveTree   │   │ │   │ ├─┬ min-document@2.19.0
+896 silly saveTree   │   │ │   │ │ └── dom-walk@0.1.1
+896 silly saveTree   │   │ │   │ └── process@0.5.2
+896 silly saveTree   │   │ │   ├── is-function@1.0.1
+896 silly saveTree   │   │ │   └─┬ parse-headers@2.0.2
+896 silly saveTree   │   │ │     ├─┬ for-each@0.3.3
+896 silly saveTree   │   │ │     │ └── is-callable@1.1.4
+896 silly saveTree   │   │ │     └─┬ string.prototype.trim@1.1.2
+896 silly saveTree   │   │ │       ├─┬ define-properties@1.1.3
+896 silly saveTree   │   │ │       │ └── object-keys@1.1.0
+896 silly saveTree   │   │ │       ├─┬ es-abstract@1.13.0
+896 silly saveTree   │   │ │       │ ├─┬ es-to-primitive@1.2.0
+896 silly saveTree   │   │ │       │ │ ├── is-date-object@1.0.1
+896 silly saveTree   │   │ │       │ │ └─┬ is-symbol@1.0.2
+896 silly saveTree   │   │ │       │ │   └── has-symbols@1.0.0
+896 silly saveTree   │   │ │       │ ├── function-bind@1.1.1
+896 silly saveTree   │   │ │       │ ├── has@1.0.3
+896 silly saveTree   │   │ │       │ └── is-regex@1.0.4
+896 silly saveTree   │   │ │       └── function-bind@1.1.1
+896 silly saveTree   │   │ ├─┬ ws@3.3.3
+896 silly saveTree   │   │ │ ├── async-limiter@1.0.0
+896 silly saveTree   │   │ │ └── ultron@1.1.1
+896 silly saveTree   │   │ └─┬ xhr-request-promise@0.1.2
+896 silly saveTree   │   │   └─┬ xhr-request@1.1.0
+896 silly saveTree   │   │     ├── buffer-to-arraybuffer@0.0.5
+896 silly saveTree   │   │     ├─┬ query-string@5.1.1
+896 silly saveTree   │   │     │ ├── decode-uri-component@0.2.0
+896 silly saveTree   │   │     │ └── strict-uri-encode@1.1.0
+896 silly saveTree   │   │     ├─┬ simple-get@2.8.1
+896 silly saveTree   │   │     │ ├─┬ decompress-response@3.3.0
+896 silly saveTree   │   │     │ │ └── mimic-response@1.0.1
+896 silly saveTree   │   │     │ └── simple-concat@1.0.0
+896 silly saveTree   │   │     ├── timed-out@4.0.1
+896 silly saveTree   │   │     └── url-set-query@1.0.0
+896 silly saveTree   │   ├─┬ fs-extra@4.0.3
+896 silly saveTree   │   │ ├── jsonfile@4.0.0
+896 silly saveTree   │   │ └── universalify@0.1.2
+896 silly saveTree   │   ├─┬ got@7.1.0
+896 silly saveTree   │   │ ├── duplexer3@0.1.4
+896 silly saveTree   │   │ ├── get-stream@3.0.0
+896 silly saveTree   │   │ ├── is-plain-obj@1.1.0
+896 silly saveTree   │   │ ├── is-retry-allowed@1.1.0
+896 silly saveTree   │   │ ├─┬ isurl@1.0.0
+896 silly saveTree   │   │ │ ├─┬ has-to-string-tag-x@1.4.1
+896 silly saveTree   │   │ │ │ └── has-symbol-support-x@1.4.2
+896 silly saveTree   │   │ │ └── is-object@1.0.1
+896 silly saveTree   │   │ ├── lowercase-keys@1.0.1
+896 silly saveTree   │   │ ├── p-cancelable@0.3.0
+896 silly saveTree   │   │ ├─┬ p-timeout@1.2.1
+896 silly saveTree   │   │ │ └── p-finally@1.0.0
+896 silly saveTree   │   │ ├─┬ url-parse-lax@1.0.0
+896 silly saveTree   │   │ │ └── prepend-http@1.0.4
+896 silly saveTree   │   │ └── url-to-options@1.0.1
+896 silly saveTree   │   ├── mime-types@2.1.22
+896 silly saveTree   │   ├─┬ mkdirp-promise@5.0.1
+896 silly saveTree   │   │ └─┬ mkdirp@0.5.1
+896 silly saveTree   │   │   └── minimist@0.0.8
+896 silly saveTree   │   ├── mock-fs@4.8.0
+896 silly saveTree   │   ├── setimmediate@1.0.5
+896 silly saveTree   │   ├─┬ tar@4.4.8
+896 silly saveTree   │   │ ├── chownr@1.1.1
+896 silly saveTree   │   │ ├─┬ fs-minipass@1.2.5
+896 silly saveTree   │   │ │ └─┬ minipass@2.3.5
+896 silly saveTree   │   │ │   └── yallist@3.0.3
+896 silly saveTree   │   │ ├── minipass@2.3.5
+896 silly saveTree   │   │ ├── minizlib@1.2.1
+896 silly saveTree   │   │ └── yallist@3.0.3
+896 silly saveTree   │   └── xhr-request-promise@0.1.2
+896 silly saveTree   ├─┬ web3-core-helpers@1.0.0-beta.48
+896 silly saveTree   │ ├─┬ web3-eth-iban@1.0.0-beta.48
+896 silly saveTree   │ │ └─┬ web3-utils@1.0.0-beta.48
+896 silly saveTree   │ │   ├── @types/bn.js@4.11.4
+896 silly saveTree   │ │   ├── eth-lib@0.2.8
+896 silly saveTree   │ │   ├─┬ ethjs-unit@0.1.6
+896 silly saveTree   │ │   │ ├── bn.js@4.11.6
+896 silly saveTree   │ │   │ └─┬ number-to-bn@1.7.0
+896 silly saveTree   │ │   │   ├── bn.js@4.11.6
+896 silly saveTree   │ │   │   └─┬ strip-hex-prefix@1.0.0
+896 silly saveTree   │ │   │     └── is-hex-prefixed@1.0.0
+896 silly saveTree   │ │   ├── number-to-bn@1.7.0
+896 silly saveTree   │ │   ├── randomhex@0.1.5
+896 silly saveTree   │ │   └── utf8@2.1.1
+896 silly saveTree   │ └── web3-utils@1.0.0-beta.48
+896 silly saveTree   ├─┬ web3-core-method@1.0.0-beta.48
+896 silly saveTree   │ ├── eventemitter3@3.1.0
+896 silly saveTree   │ ├── web3-core-promievent@1.0.0-beta.48
+896 silly saveTree   │ ├── web3-core-subscriptions@1.0.0-beta.48
+896 silly saveTree   │ └── web3-core@1.0.0-beta.48
+896 silly saveTree   ├── web3-core@1.0.0-beta.48
+896 silly saveTree   ├─┬ web3-eth-personal@1.0.0-beta.48
+896 silly saveTree   │ ├─┬ web3-net@1.0.0-beta.48
+896 silly saveTree   │ │ └─┬ web3-providers@1.0.0-beta.48
+896 silly saveTree   │ │   ├── oboe@2.1.4
+896 silly saveTree   │ │   ├── url-parse@1.4.4
+896 silly saveTree   │ │   └── xhr2-cookies@1.1.0
+896 silly saveTree   │ └── web3-providers@1.0.0-beta.48
+896 silly saveTree   ├─┬ web3-eth@1.0.0-beta.48
+896 silly saveTree   │ ├── eth-lib@0.2.8
+896 silly saveTree   │ ├─┬ web3-eth-abi@1.0.0-beta.48
+896 silly saveTree   │ │ └─┬ ethers@4.0.26
+896 silly saveTree   │ │   ├── aes-js@3.0.0
+896 silly saveTree   │ │   ├─┬ elliptic@6.3.3
+896 silly saveTree   │ │   │ └── hash.js@1.1.3
+896 silly saveTree   │ │   ├── hash.js@1.1.3
+896 silly saveTree   │ │   ├── js-sha3@0.5.7
+896 silly saveTree   │ │   ├── scrypt-js@2.0.4
+896 silly saveTree   │ │   ├── setimmediate@1.0.4
+896 silly saveTree   │ │   ├── uuid@2.0.1
+896 silly saveTree   │ │   └── xmlhttprequest@1.8.0
+896 silly saveTree   │ ├─┬ web3-eth-accounts@1.0.0-beta.48
+896 silly saveTree   │ │ ├─┬ crypto-browserify@3.12.0
+896 silly saveTree   │ │ │ ├─┬ browserify-cipher@1.0.1
+896 silly saveTree   │ │ │ │ ├─┬ browserify-aes@1.2.0
+896 silly saveTree   │ │ │ │ │ ├── buffer-xor@1.0.3
+896 silly saveTree   │ │ │ │ │ ├── cipher-base@1.0.4
+896 silly saveTree   │ │ │ │ │ ├─┬ create-hash@1.2.0
+896 silly saveTree   │ │ │ │ │ │ ├─┬ md5.js@1.3.5
+896 silly saveTree   │ │ │ │ │ │ │ └── hash-base@3.0.4
+896 silly saveTree   │ │ │ │ │ │ ├── ripemd160@2.0.2
+896 silly saveTree   │ │ │ │ │ │ └── sha.js@2.4.11
+896 silly saveTree   │ │ │ │ │ └── evp_bytestokey@1.0.3
+896 silly saveTree   │ │ │ │ ├─┬ browserify-des@1.0.2
+896 silly saveTree   │ │ │ │ │ └── des.js@1.0.0
+896 silly saveTree   │ │ │ │ └── evp_bytestokey@1.0.3
+896 silly saveTree   │ │ │ ├─┬ browserify-sign@4.0.4
+896 silly saveTree   │ │ │ │ ├─┬ browserify-rsa@4.0.1
+896 silly saveTree   │ │ │ │ │ └── randombytes@2.1.0
+896 silly saveTree   │ │ │ │ ├── create-hmac@1.1.7
+896 silly saveTree   │ │ │ │ └─┬ parse-asn1@5.1.4
+896 silly saveTree   │ │ │ │   ├── asn1.js@4.10.1
+896 silly saveTree   │ │ │ │   └── pbkdf2@3.0.17
+896 silly saveTree   │ │ │ ├── create-ecdh@4.0.3
+896 silly saveTree   │ │ │ ├── create-hash@1.2.0
+896 silly saveTree   │ │ │ ├── create-hmac@1.1.7
+896 silly saveTree   │ │ │ ├─┬ diffie-hellman@5.0.3
+896 silly saveTree   │ │ │ │ └── miller-rabin@4.0.1
+896 silly saveTree   │ │ │ ├── pbkdf2@3.0.17
+896 silly saveTree   │ │ │ ├── public-encrypt@4.0.3
+896 silly saveTree   │ │ │ ├── randombytes@2.1.0
+896 silly saveTree   │ │ │ └── randomfill@1.0.4
+896 silly saveTree   │ │ ├── eth-lib@0.2.8
+896 silly saveTree   │ │ └─┬ scrypt.js@0.2.0
+896 silly saveTree   │ │   ├── scrypt@6.0.3
+896 silly saveTree   │ │   └── scryptsy@1.2.1
+896 silly saveTree   │ ├── web3-eth-contract@1.0.0-beta.48
+896 silly saveTree   │ └── web3-eth-ens@1.0.0-beta.48
+896 silly saveTree   ├── web3-net@1.0.0-beta.48
+896 silly saveTree   ├── web3-providers@1.0.0-beta.48
+896 silly saveTree   ├── web3-shh@1.0.0-beta.48
+896 silly saveTree   └── web3-utils@1.0.0-beta.48
+897 verbose stack Error: No git binary found in $PATH
+897 verbose stack     at checkGit (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/pacote/lib/util/git.js:246:17)
+897 verbose stack     at spawnGit (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/pacote/lib/util/git.js:204:10)
+897 verbose stack     at pinflight (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/pacote/lib/util/git.js:131:12)
+897 verbose stack     at /opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:29:24
+897 verbose stack     at Promise._execute (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/debuggability.js:303:9)
+897 verbose stack     at Promise._resolveFromExecutor (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:483:18)
+897 verbose stack     at new Promise (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:79:10)
+897 verbose stack     at _inflight (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:28:25)
+897 verbose stack     at /opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/promise-inflight/inflight.js:22:14
+897 verbose stack     at tryCatcher (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/util.js:16:23)
+897 verbose stack     at Promise._settlePromiseFromHandler (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:512:31)
+897 verbose stack     at Promise._settlePromise (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:569:18)
+897 verbose stack     at Promise._settlePromiseCtx (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/promise.js:606:10)
+897 verbose stack     at Async._drainQueue (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:138:12)
+897 verbose stack     at Async._drainQueues (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:143:10)
+897 verbose stack     at Immediate.Async.drainQueues [as _onImmediate] (/opt/node-v10.15.3-linux-x64/lib/node_modules/npm/node_modules/bluebird/js/release/async.js:17:14)
+898 verbose cwd /var/www/html/listen_send
+899 verbose Linux 4.9.49-moby
+900 verbose argv "/opt/node-v10.15.3-linux-x64/bin/node" "/bin/npm" "install" "web3"
+901 verbose node v10.15.3
+902 verbose npm  v6.4.1
+903 error code ENOGIT
+904 error Error while executing:
+904 error undefined ls-remote -h -t git://github.com/frozeman/WebSocket-Node.git
+904 error
+904 error undefined
+904 error No git binary found in $PATH
+905 error Failed using git.
+905 error Please check if you have git installed and in your PATH.
+906 verbose exit [ 1, true ]

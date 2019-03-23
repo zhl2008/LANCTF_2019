@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS `haozi`;
+CREATE DATABASE `haozi` ;
+
+USE `haozi`;
+
+
+DROP TABLE IF EXISTS `msg`;
+CREATE TABLE `msg` (
+  `id` INT  PRIMARY KEY AUTO_INCREMENT,
+  `contents` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+LOCK TABLES `msg` WRITE;
+INSERT INTO `msg` (contents) VALUES ('PHNjcmlwdD5hbGVydCgnc3VjY2VzcyEnKTs8L3NjcmlwdD4K');
+UNLOCK TABLES;

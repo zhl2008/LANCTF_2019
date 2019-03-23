@@ -1,0 +1,19 @@
+gif  flag{FuN_giF}
+
+give_me_6   flag{258a7bfe736257e94f909f296aa91d54}
+
+
+windows日志   flag{192.168.2.187:50118}
+
+traffic_analyze
+1.gamersky.com
+2.192.168.12.126
+3.192.168.12.148
+4.万能吃鸡助手.exe
+5.woaini123
+6.root
+7.xiaoli_admin.php
+8.help.php
+9.d6ef28a5a89d8ab0c803ef11c32eee34
+10.小芳
+
